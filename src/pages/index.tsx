@@ -1,6 +1,7 @@
-import NavBar from '@/components/Navigation/Navigation';
+import Navigation from '@/components/Navigation/Navigation';
 import Head from 'next/head';
 import { Button, Col, Container, Row } from 'react-bootstrap';
+import { FaGraduationCap } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 
 const typingSequence = [
@@ -12,13 +13,24 @@ const typingSequence = [
   1000,
 ];
 
+const navigationProps = {
+  brand: { logo: <FaGraduationCap />, name: 'EduPortal', path: '/' },
+  sections: [
+    { name: 'Log In', path: '/login' },
+    { name: 'Sign Up', path: '/signup' },
+  ],
+};
+
 const Home = () => {
   return (
     <>
       <Head>
         <title>EduPortal</title>
       </Head>
-      <NavBar />
+      <Navigation
+        brand={navigationProps.brand}
+        sections={navigationProps.sections}
+      />
 
       <Container>
         <Row className="justify-content-center"></Row>
@@ -36,11 +48,11 @@ const Home = () => {
               />
             </div>
             <div className="mt-3">
-              <Button variant="primary" href="/signup">
-                Sign Up
-              </Button>{' '}
               <Button variant="primary" href="/login">
                 Log In
+              </Button>{' '}
+              <Button variant="primary" href="/signup">
+                Sign Up
               </Button>
             </div>
           </Col>
