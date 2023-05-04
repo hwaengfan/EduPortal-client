@@ -1,6 +1,13 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import '@/styles/global.scss';
+import type { AppProps } from 'next/app';
+import { SSRProvider } from 'react-bootstrap';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-}
+const App = ({ Component, pageProps }: AppProps) => {
+  return (
+    <SSRProvider>
+      <Component {...pageProps} />
+    </SSRProvider>
+  );
+};
+
+export default App;

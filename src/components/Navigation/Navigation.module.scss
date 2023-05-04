@@ -1,0 +1,9 @@
+@import '@/styles/variables.scss';
+
+.font {
+  color: $primary-yellow;
+}
+
+.font:hover {
+  color: $secondary-yellow;
+}
