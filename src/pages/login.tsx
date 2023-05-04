@@ -1,18 +1,18 @@
-import SignupForm from '@/components/Authentication/SignupForm';
+import LoginForm from '@/components/Authentication/LoginForm';
 import NavBar from '@/components/Navigation/Navigation';
 import Head from 'next/head';
 
-const SignUp = () => {
+const Login = () => {
   return (
     <>
       <Head>
-        <title>Signup</title>
+        <title>Login</title>
       </Head>
       <NavBar />
 
-      <SignupForm />
+      <LoginForm />
     </>
   );
 };
 
-export default SignUp;
+export default Login;

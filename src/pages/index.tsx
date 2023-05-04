@@ -1,5 +1,4 @@
 import Campus from '@/assets/images/campus.jpg';
-import LoginForm from '@/components/Authentication/LoginForm';
 import NavBar from '@/components/Navigation/Navigation';
 import Head from 'next/head';
 import Image from 'next/image';
@@ -9,7 +8,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>My College</title>
+        <title>EduPortal</title>
       </Head>
       <NavBar />
 
@@ -25,8 +24,6 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-
-      <LoginForm />
     </>
   );
 };

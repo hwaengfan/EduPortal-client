@@ -12,12 +12,12 @@ const Navigation = () => {
         fixed="top">
         <Container>
           <Navbar.Brand href="/" className={styles.font}>
-            My College
+            EduPortal
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">
             <Nav>
-              <Nav.Link href="/" className={styles.font}>
+              <Nav.Link href="/login" className={styles.font}>
                 Login
               </Nav.Link>
               <Nav.Link href="/signup" className={styles.font}>

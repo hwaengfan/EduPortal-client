@@ -15,7 +15,7 @@ const LoginForm = () => {
       console.log('Username:', formData.get('username'));
       console.log('Password:', formData.get('password'));
     } else {
-      console.log('gg');
+      console.log('error');
     }
   };
 
