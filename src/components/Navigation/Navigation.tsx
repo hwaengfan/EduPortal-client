@@ -1,4 +1,5 @@
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { FaGraduationCap } from 'react-icons/fa';
 import styles from './Navigation.module.scss';
 
 const Navigation = () => {
@@ -12,7 +13,7 @@ const Navigation = () => {
         fixed="top">
         <Container>
           <Navbar.Brand href="/" className={styles.font}>
-            EduPortal
+            <FaGraduationCap /> EduPortal
           </Navbar.Brand>
           <Navbar.Toggle />
           <Navbar.Collapse className="justify-content-end">

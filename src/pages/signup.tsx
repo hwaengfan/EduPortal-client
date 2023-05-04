@@ -1,6 +1,7 @@
 import SignupForm from '@/components/Authentication/SignupForm';
 import NavBar from '@/components/Navigation/Navigation';
 import Head from 'next/head';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const SignUp = () => {
   return (
@@ -10,7 +11,13 @@ const SignUp = () => {
       </Head>
       <NavBar />
 
-      <SignupForm />
+      <Container fluid style={{ height: '75vh' }}>
+        <Row className="justify-content-center align-items-center h-100">
+          <Col md={9} lg={9}>
+            <SignupForm />
+          </Col>
+        </Row>
+      </Container>
     </>
   );
 };
