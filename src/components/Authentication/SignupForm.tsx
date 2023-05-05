@@ -30,6 +30,7 @@ const SignupForm = () => {
             name="firstName"
             type="text"
             placeholder="Enter first name"
+            required
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formLastname">
@@ -38,6 +39,7 @@ const SignupForm = () => {
             name="lastName"
             type="text"
             placeholder="Enter last name"
+            required
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formUsername">
@@ -46,6 +48,7 @@ const SignupForm = () => {
             name="username"
             type="text"
             placeholder="Enter username"
+            required
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formPassword">
@@ -54,6 +57,7 @@ const SignupForm = () => {
             name="password"
             type={showPassword ? 'text' : 'password'}
             placeholder="Password"
+            required
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formShowpass">

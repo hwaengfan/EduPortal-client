@@ -2,10 +2,10 @@ import CourseCard from '@/components/Course/CourseCard';
 import Navigation from '@/components/Navigation/Navigation';
 import Head from 'next/head';
 import { Container, Row } from 'react-bootstrap';
-import { FaGraduationCap } from 'react-icons/fa';
+import { FaUserAlt } from 'react-icons/fa';
 
 const navigationProps = {
-  brand: { logo: <FaGraduationCap />, name: 'EduPortal', path: '/dashboard' },
+  brand: { logo: <FaUserAlt />, name: 'Hoang', path: '/dashboard' },
   sections: [
     { name: 'Profile', path: '/profile' },
     { name: 'Sign Out', path: '/' },
@@ -28,9 +28,9 @@ const Dashboard = () => {
         <Container>
           <Row className="justify-content-center">
             <CourseCard courseName="Class 1" imageSrc="/images/C++.jpg" />
-            <CourseCard courseName="Class 1" imageSrc="/images/C++.jpg" />
-            <CourseCard courseName="Class 1" imageSrc="/images/C++.jpg" />
-            <CourseCard courseName="Class 1" imageSrc="/images/C++.jpg" />
+            <CourseCard courseName="Class 2" imageSrc="/images/English.jpg" />
+            <CourseCard courseName="Class 3" imageSrc="/images/Calculus.jpg" />
+            <CourseCard courseName="Class 4" imageSrc="/images/E&M.jpg" />
           </Row>
         </Container>
       </div>

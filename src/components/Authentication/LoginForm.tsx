@@ -28,6 +28,7 @@ const LoginForm = () => {
             name="username"
             type="text"
             placeholder="Enter username"
+            required
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formPassword">
@@ -36,6 +37,7 @@ const LoginForm = () => {
             name="password"
             type={showPassword ? 'text' : 'password'}
             placeholder="Password"
+            required
           />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formShowpass">
