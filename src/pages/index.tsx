@@ -32,10 +32,6 @@ const Home = () => {
         sections={navigationProps.sections}
       />
 
-      <Container>
-        <Row className="justify-content-center"></Row>
-      </Container>
-
       <Container fluid style={{ height: '75vh' }}>
         <Row className="justify-content-center align-items-center h-100">
           <Col md={9} lg={9} className="text-center">
