@@ -7,8 +7,10 @@
 
 - Student:
   - username: `student123`
+  - password: `xdd`
 - Professor
   - username: `professor123`
+  - password: `xdd`
 - Board-member
   - username: `board123`
-- All passwords are `xdd`
+  - password: `xdd`
