@@ -6,9 +6,9 @@
 ## Try different users with the following informations:
 
 - Student:
-  -- username: `student123`
+  - username: `student123`
 - Professor
-  -- username: `professor123`
+  - username: `professor123`
 - Board-member
-  -- username: `board123`
+  - username: `board123`
 - All passwords are `xdd`
