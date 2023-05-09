@@ -1,19 +1,18 @@
-import React from 'react';
 import { Card } from 'react-bootstrap';
 
 interface CourseCardProps {
-  courseName: string;
+  name: string;
   imageSrc: string;
 }
 
-const CourseCard: React.FC<CourseCardProps> = ({ courseName, imageSrc }) => {
+const CourseCard: React.FC<CourseCardProps> = ({ name, imageSrc }) => {
   return (
-    <Card className="mx-3 my-3 border-dark" style={{ width: '15rem' }}>
-      <Card.Img variant="top" src={imageSrc} style={{ height: '100%' }} />
+    <Card border="dark" className="mx-3 my-3" style={{ width: '18rem' }}>
       <Card.Body>
         <Card.Title className="d-flex justify-content-center">
-          {courseName}
+          {name}
         </Card.Title>
+        <Card.Img variant="top" src={imageSrc} />
       </Card.Body>
     </Card>
   );
