@@ -1,5 +1,5 @@
 import Navigation from '@/components/Navigation/Navigation';
-import ProfileForm from '@/components/Profile/ProfileForm';
+import ProfileForm from '@/components/ProfileForm';
 import Head from 'next/head';
 import Image from 'next/image';
 import { FaUserAlt } from 'react-icons/fa';

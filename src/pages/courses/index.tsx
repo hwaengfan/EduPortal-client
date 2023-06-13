@@ -1,4 +1,4 @@
-import AssignmentCard from '@/components/Assignment/AssignmentCard';
+import AssignmentCard from '@/components/AssignmentCard';
 import Navigation from '@/components/Navigation/Navigation';
 import Head from 'next/head';
 import { Container, Row } from 'react-bootstrap';
@@ -13,7 +13,7 @@ const Courses = () => {
   return (
     <>
       <Head>
-        <title>E&M</title>
+        <title>Course Name</title>
       </Head>
 
       <Navigation

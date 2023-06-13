@@ -1,4 +1,4 @@
-import CourseCard from '@/components/Course/CourseCard';
+import CourseCard from '@/components/CourseCard';
 import Navigation from '@/components/Navigation/Navigation';
 import Head from 'next/head';
 import { Container, Row } from 'react-bootstrap';
