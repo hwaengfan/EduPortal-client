@@ -5,7 +5,7 @@ import { Container, Row } from 'react-bootstrap';
 import { FaUserAlt } from 'react-icons/fa';
 
 const navigationProps = {
-  brand: { logo: <FaUserAlt />, name: 'Hoang', path: '/dashboard' },
+  brand: { logo: <FaUserAlt />, name: '', path: '/dashboard' },
   sections: [],
 };
 

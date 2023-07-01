@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { FaUserAlt } from 'react-icons/fa';
 
 const navigationProps = {
-  brand: { logo: <FaUserAlt />, name: 'Hoang', path: '/dashboard' },
+  brand: { logo: <FaUserAlt />, name: '', path: '/dashboard' },
   sections: [
     { name: 'Profile', path: '/profile' },
     { name: 'Sign Out', path: '/' },
